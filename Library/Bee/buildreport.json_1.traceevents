@@ -1,0 +1,547 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1662183755731362, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662183755732447, "dur": 241810, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662183755974442, "dur": 3192431, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662183759166888, "dur": 10154, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662183802826502, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662183802826717, "dur": 3284, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662183802830002, "dur": 32423, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662183802862507, "dur": 910144, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662183803772654, "dur": 2505767, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662183806278423, "dur": 12610, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662183806291755, "dur": 22, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1662183803326779, "dur": 371749, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662183803327684, "dur": 163527, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662183803685647, "dur": 3784, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662183803689434, "dur": 9090, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662183803689942, "dur": 8032, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662183803717710, "dur": 1011, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662183803701435, "dur": 17306, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662183806297912, "dur": 270, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1662183803806357, "dur":1277, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183803807641, "dur":44, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1662183803807697, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1662183803807711, "dur":463, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1662183803808193, "dur":452, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183803808645, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269140, "dur":265, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269405, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269416, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269418, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269428, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269430, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269434, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269435, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269440, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269441, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269446, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269447, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269451, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269452, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269457, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269458, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269462, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269463, "dur":47, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269510, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269511, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269516, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269517, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269522, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269523, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269527, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269528, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269532, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269533, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269537, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269538, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269543, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269544, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269550, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269557, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806269560, "dur":1037, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1662183803808290, "dur":360, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662183803808651, "dur":4259, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662183803812924, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662183803812925, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662183803813071, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662183803813075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662183803817001, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662183803817794, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1662183803817864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662183803817910, "dur":151296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1662183803969504, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183803969678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662183803970588, "dur":1732089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183805702766, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183805702854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662183805702862, "dur":54754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183805757701, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183805757781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662183805757787, "dur":30223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183805788101, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183805788192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662183805788199, "dur":34882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183805823171, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183805823263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662183805823269, "dur":29700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183805853068, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183805853147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662183805853156, "dur":47834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183805901099, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183805901184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662183805901193, "dur":111906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183806013185, "dur":171322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/openai.api.unity.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183806184514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662183806184527, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/openai.api.unity.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662183806185793, "dur":83356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662183803808292, "dur":361, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662183803808654, "dur":4264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662183803812924, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1662183803813119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662183803817463, "dur":151934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1662183803969829, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662183803969938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662183803970590, "dur":1775119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662183805745818, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662183805745910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662183805745919, "dur":81366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662183805827438, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662183805827535, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662183805827547, "dur":53600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662183805881252, "dur":625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662183805881880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662183805881887, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662183805883743, "dur":62224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662183805945972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662183805945982, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662183805947547, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662183805947633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662183805947639, "dur":65524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662183806013424, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662183806013519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662183806013525, "dur":40778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662183806054397, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1662183806054518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662183806054583, "dur":4081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1662183806058749, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1662183806058860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662183806058866, "dur":39898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1662183806098875, "dur":170265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662183803808315, "dur":342, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662183803808657, "dur":4270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662183803812927, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1662183803813072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662183803816597, "dur":152720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1662183803969423, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662183803969575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662183803970455, "dur":1715606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662183805686187, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662183805686294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662183805686303, "dur":85257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662183805771700, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662183805771791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662183805771908, "dur":35836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662183805807837, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662183805807924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662183805807931, "dur":45390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662183805853458, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662183805853561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662183805853567, "dur":31042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662183805884762, "dur":194165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662183806078935, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662183806078947, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662183806081443, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662183806081584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662183806081593, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662183806083031, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1662183806083117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662183806083124, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1662183806084535, "dur":722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1662183806085259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662183806085266, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1662183806086343, "dur":182795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662183803808333, "dur":328, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662183803808661, "dur":4255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662183803812924, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1662183803813125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662183803819636, "dur":25351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1662183803845079, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project.exe" }}
+,{ "pid":12345, "tid":4, "ts":1662183803845175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662183803845179, "dur":124558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project.exe" }}
+,{ "pid":12345, "tid":4, "ts":1662183803969828, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662183803969938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662183803970606, "dur":1761506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662183805732244, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662183805732331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662183805732340, "dur":57774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662183805790211, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662183805790291, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662183805790298, "dur":45033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662183805835425, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662183805835511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662183805835519, "dur":33782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662183805869500, "dur":79762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662183805949265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662183805949272, "dur":6138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662183805955497, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662183805955575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662183805955583, "dur":97780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662183806053474, "dur":155736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662183806209215, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662183806209244, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662183806210335, "dur":58807, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662183803808353, "dur":313, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662183803808666, "dur":4262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662183803812930, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1662183803813194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662183803820902, "dur":16236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1662183803837216, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662183803837293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662183803837475, "dur":131709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662183803969317, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1662183803969704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662183803970387, "dur":558650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1662183804529157, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662183804529258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662183804529266, "dur":1220116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662183805749491, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662183805749583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662183805749595, "dur":41885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662183805791570, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662183805791660, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662183805791666, "dur":56820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662183805848580, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662183805848697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662183805848702, "dur":31053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662183805879845, "dur":175760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662183806055608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662183806055615, "dur":3015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662183806058734, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1662183806058841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662183806058849, "dur":62500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1662183806121463, "dur":147673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662183803808384, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662183803808670, "dur":4250, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662183803812925, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1662183803813062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662183803814583, "dur":30347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1662183803845033, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183803845116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662183803845120, "dur":1355458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183805200666, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183805200739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662183805200746, "dur":545268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183805746101, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183805746179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662183805746185, "dur":55144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183805801423, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183805801504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662183805801513, "dur":21199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183805822814, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183805822903, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662183805822908, "dur":30677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183805853669, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183805853753, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662183805853758, "dur":35443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183805889297, "dur":49263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183805938568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662183805938581, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183805940786, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183805940895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662183805940908, "dur":247473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662183806188454, "dur":80697, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662183803808397, "dur":276, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662183803808673, "dur":4242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662183803812924, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1662183803813321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662183803821413, "dur":148108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1662183803969615, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183803969724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662183803970530, "dur":1727592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183805698237, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183805698322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662183805698331, "dur":58785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183805757234, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183805757322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662183805757332, "dur":72875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183805830301, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183805830389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662183805830395, "dur":27284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183805857772, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183805857860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662183805857868, "dur":25514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183805883479, "dur":29831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183805913314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662183805913321, "dur":5119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183805918534, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183805918613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662183805918620, "dur":89120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183806007888, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183806008006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662183806008017, "dur":180113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662183806188228, "dur":80930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662183803808421, "dur":255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662183803808677, "dur":4243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662183803812925, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1662183803813186, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662183803820314, "dur":149162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1662183803969732, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662183803969840, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662183803970604, "dur":1729029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662183805699732, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662183805699823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662183805699830, "dur":148503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662183805848534, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662183805848618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662183805848627, "dur":20421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662183805869143, "dur":82093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662183805951240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662183805951246, "dur":27415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662183805978771, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662183805978849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662183805978857, "dur":211187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662183806190150, "dur":79005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662183803808437, "dur":244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662183803808681, "dur":4241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662183803812927, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1662183803813086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662183803817006, "dur":152402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1662183803969531, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662183803969679, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662183803970581, "dur":1715475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662183805686188, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662183805686297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662183805686303, "dur":53373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662183805739781, "dur":988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662183805740773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662183805740788, "dur":66373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662183805807289, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662183805807378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662183805807392, "dur":29469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662183805836966, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662183805837060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662183805837066, "dur":31667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662183805868855, "dur":42495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662183805911357, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662183805911372, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662183805912643, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662183805912733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662183805912740, "dur":298773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662183806211578, "dur":57565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662183803808458, "dur":226, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662183803808684, "dur":4239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662183803812925, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1662183803813107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662183803817605, "dur":27231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1662183803844942, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183803845027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662183803845094, "dur":610740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183804455908, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183804455973, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662183804455979, "dur":1290434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183805747147, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183805747525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662183805747531, "dur":47018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183805794665, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183805794765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662183805794775, "dur":60586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183805855659, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183805855984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662183805855990, "dur":28423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183805884498, "dur":63805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183805948307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662183805948313, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183805949398, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183805949487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662183805949492, "dur":30778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183805981031, "dur":2656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183805983692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662183805983702, "dur":32090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183806015879, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183806015961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662183806015968, "dur":253064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662183806269104, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1662183806269105, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662183803808480, "dur":207, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662183803808687, "dur":4242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662183803812929, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1662183803813171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662183803820031, "dur":149862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1662183803969991, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662183803970079, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662183803970525, "dur":1778459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662183805749079, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662183805749173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662183805749181, "dur":74478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662183805823751, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662183805823843, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662183805824022, "dur":24782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662183805848897, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662183805849124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662183805849130, "dur":30380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662183805879617, "dur":71561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662183805951181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662183805951188, "dur":8874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662183805960148, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662183805960230, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662183805960235, "dur":204729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662183806165065, "dur":104083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662183803808499, "dur":191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662183803808690, "dur":4234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662183803812924, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1662183803813067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662183803816576, "dur":152794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1662183803969468, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662183803969628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662183803970478, "dur":1733419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662183805703979, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662183805704062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662183805704068, "dur":45049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662183805749216, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662183805749309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662183805749315, "dur":52141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662183805801543, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662183805801675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662183805801680, "dur":35405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662183805837172, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662183805837258, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662183805837263, "dur":105434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662183805942796, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662183805942905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662183805942912, "dur":76873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662183806019873, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662183806019957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662183806019965, "dur":175859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662183806195889, "dur":73256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662183803808516, "dur":177, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662183803808693, "dur":4238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662183803812931, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1662183803813323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662183803821429, "dur":147787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1662183803969381, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662183803969602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662183803970579, "dur":1771675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662183805742342, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662183805742423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662183805742429, "dur":55653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662183805798191, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662183805798276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662183805798308, "dur":56702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662183805855100, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662183805855193, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662183805855198, "dur":124710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662183805980339, "dur":3348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662183805983692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662183805983702, "dur":209707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662183806193476, "dur":75678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662183803808534, "dur":163, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662183803808697, "dur":4228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662183803812927, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1662183803813151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662183803819752, "dur":25230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1662183803845078, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1662183803845179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662183803845185, "dur":293715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1662183804138984, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662183804139078, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662183804139178, "dur":1547077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662183805686339, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662183805686434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662183805686439, "dur":100583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662183805787148, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662183805787239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662183805787251, "dur":33752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662183805821116, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662183805821314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662183805821323, "dur":93360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662183805914775, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662183805914864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662183805914870, "dur":45147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662183805960117, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662183805960198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662183805960206, "dur":27160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662183805987560, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662183805987726, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662183805987749, "dur":175917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662183806163777, "dur":105370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662183803808604, "dur":99, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662183803808703, "dur":4227, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662183803812930, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1662183803813064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662183803814599, "dur":21086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1662183803835774, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":15, "ts":1662183803835838, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662183803835844, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":15, "ts":1662183803837206, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1662183803837263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662183803837267, "dur":132303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1662183803969707, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662183803969807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662183803970573, "dur":1763689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662183805734355, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662183805734434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662183805734441, "dur":88092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662183805822627, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662183805822708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662183805822716, "dur":30586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662183805853634, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662183805853742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662183805853748, "dur":26621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662183805880454, "dur":658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662183805881116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662183805881146, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662183805882212, "dur":127475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662183806009692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662183806009700, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662183806012098, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662183806012184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662183806012193, "dur":180415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662183806192712, "dur":76440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662183803808579, "dur":121, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662183803808700, "dur":4226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662183803812926, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1662183803813212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662183803820924, "dur":148497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1662183803969521, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662183803969701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662183803970594, "dur":1731118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662183805701804, "dur":128152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662183805829961, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662183805829972, "dur":3953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662183805834025, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662183805834105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662183805834115, "dur":37556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662183805871760, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662183805871852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662183805871865, "dur":67757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662183805939713, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662183805939799, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662183805939806, "dur":124642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662183806064565, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":16, "ts":1662183806064785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662183806064794, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":16, "ts":1662183806065800, "dur":965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":16, "ts":1662183806066768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662183806066777, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":16, "ts":1662183806067836, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1662183806067910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662183806067916, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1662183806069683, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1662183806069782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662183806069790, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1662183806071157, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/level0.resS" }}
+,{ "pid":12345, "tid":16, "ts":1662183806071237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662183806071243, "dur":4663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/level0.resS" }}
+,{ "pid":12345, "tid":16, "ts":1662183806076053, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1662183806076141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662183806076151, "dur":32758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cambl/OneDrive/Desktop/builds/build1/My project_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1662183806109050, "dur":160087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662183806271485, "dur":1259, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1662183806298260, "dur": 613, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662183806291741, "dur": 7148, "ph": "X", "name": "Write chrome-trace events", "args": {} },
